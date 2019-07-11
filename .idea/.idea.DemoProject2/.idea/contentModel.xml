@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2018.1/system/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_DemoProject2.1924205680.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="DemoProject2" t="IncludeRecursive">
+        <e p="Controllers" t="Include">
+          <e p="EmployeesController.cs" t="Include" />
+          <e p="HomeController.cs" t="Include" />
+        </e>
+        <e p="DemoProject2.csproj" t="IncludeRecursive" />
+        <e p="Migrations" t="Include">
+          <e p="20190711044417_Init.Designer.cs" t="Include" />
+          <e p="20190711044417_Init.cs" t="Include" />
+          <e p="MyDbContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Employee.cs" t="Include" />
+          <e p="ErrorViewModel.cs" t="Include" />
+          <e p="MyDbContext.cs" t="Include" />
+          <e p="RegisterVM" t="Include">
+            <e p="RegisterVm.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="IRepository.cs" t="Include" />
+          <e p="IUnitOfWork.cs" t="Include" />
+          <e p="Repository.cs" t="Include" />
+          <e p="UnitOfWork.cs" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="Views" t="Include">
+          <e p="Employees" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="Details.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Home" t="Include">
+            <e p="ErrorForbbiden.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="Manage.cshtml" t="Include" />
+            <e p="NotLogin.cshtml" t="Include" />
+            <e p="Privacy.cshtml" t="Include" />
+            <e p="Register.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="Error.cshtml" t="Include" />
+            <e p="_CookieConsentPartial.cshtml" t="Include" />
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+          </e>
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="_ViewStart.cshtml" t="Include" />
+        </e>
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="DemoProject2.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="wwwroot" t="Include">
+          <e p="Uploads" t="Include">
+            <e p="Employees" t="Include">
+              <e p="10" t="Include">
+                <e p="dd24vva-a18b8bed-14f4-4d4e-881f-34a5eed6c768.jpg" t="Include" />
+              </e>
+              <e p="12" t="Include">
+                <e p="dd24vva-a18b8bed-14f4-4d4e-881f-34a5eed6c768.jpg" t="Include" />
+              </e>
+              <e p="14" t="Include">
+                <e p="dc8ykdg-8dcfe782-f577-4bfc-a20c-35858b3310a1.jpg" t="Include" />
+              </e>
+              <e p="15" t="Include">
+                <e p="dd24vva-a18b8bed-14f4-4d4e-881f-34a5eed6c768.jpg" t="Include" />
+              </e>
+              <e p="16" t="Include">
+                <e p="dd24vva-a18b8bed-14f4-4d4e-881f-34a5eed6c768.jpg" t="Include" />
+              </e>
+              <e p="18" t="Include">
+                <e p="dd24vva-a18b8bed-14f4-4d4e-881f-34a5eed6c768.jpg" t="Include" />
+              </e>
+              <e p="27" t="Include">
+                <e p="dd24vva-a18b8bed-14f4-4d4e-881f-34a5eed6c768.jpg" t="Include" />
+              </e>
+              <e p="28" t="Include">
+                <e p="dd24vva-a18b8bed-14f4-4d4e-881f-34a5eed6c768.jpg" t="Include" />
+              </e>
+              <e p="29" t="Include">
+                <e p="dc8ykdg-8dcfe782-f577-4bfc-a20c-35858b3310a1.jpg" t="Include" />
+              </e>
+              <e p="30" t="Include">
+                <e p="dd24vva-a18b8bed-14f4-4d4e-881f-34a5eed6c768.jpg" t="Include" />
+              </e>
+              <e p="5" t="Include">
+                <e p="dc8ykdg-8dcfe782-f577-4bfc-a20c-35858b3310a1.jpg" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="app-assets" t="Include">
+            <e p="css" t="Include">
+              <e p="custom" t="Include">
+                <e p="custom.css" t="Include" />
+              </e>
+              <e p="pages" t="Include">
+                <e p="dashboard.css" t="Include" />
+                <e p="login.css" t="Include" />
+              </e>
+              <e p="themes" t="Include">
+                <e p="vertical-modern-menu-template" t="Include">
+                  <e p="materialize.css" t="Include" />
+                  <e p="style.css" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="fonts" t="Include">
+              <e p="material-design-icons" t="Include">
+                <e p="MaterialIcons-Regular.eot" t="Include" />
+                <e p="MaterialIcons-Regular.ttf" t="Include" />
+                <e p="MaterialIcons-Regular.woff" t="Include" />
+                <e p="MaterialIcons-Regular.woff2" t="Include" />
+              </e>
+            </e>
+            <e p="images" t="Include">
+              <e p="avatar" t="Include">
+                <e p="avatar-1.png" t="Include" />
+                <e p="avatar-10.png" t="Include" />
+                <e p="avatar-11.png" t="Include" />
+                <e p="avatar-12.png" t="Include" />
+                <e p="avatar-2.png" t="Include" />
+                <e p="avatar-3.png" t="Include" />
+                <e p="avatar-4.png" t="Include" />
+                <e p="avatar-5.png" t="Include" />
+                <e p="avatar-6.png" t="Include" />
+                <e p="avatar-7.png" t="Include" />
+                <e p="avatar-8.png" t="Include" />
+                <e p="avatar-9.png" t="Include" />
+              </e>
+              <e p="cards" t="Include">
+                <e p="applewatch.png" t="Include" />
+                <e p="headphones-2.png" t="Include" />
+                <e p="iphone.png" t="Include" />
+                <e p="iphonec.png" t="Include" />
+                <e p="macbook.png" t="Include" />
+                <e p="watch.png" t="Include" />
+              </e>
+              <e p="gallery" t="Include">
+                <e p="3.png" t="Include" />
+                <e p="flat-bg.jpg" t="Include" />
+              </e>
+              <e p="icon" t="Include">
+                <e p="apple-watch.png" t="Include" />
+                <e p="bowling.png" t="Include" />
+                <e p="laptop.png" t="Include" />
+                <e p="printer.png" t="Include" />
+              </e>
+              <e p="logo" t="Include">
+                <e p="materialize-logo-color.png" t="Include" />
+              </e>
+            </e>
+            <e p="js" t="Include">
+              <e p="custom" t="Include">
+                <e p="custom-script.js" t="Include" />
+              </e>
+              <e p="plugins.js" t="Include" />
+              <e p="scripts" t="Include">
+                <e p="customizer.js" t="Include" />
+                <e p="dashboard-ecommerce.js" t="Include" />
+                <e p="form-file-uploads.js" t="Include" />
+              </e>
+              <e p="vendors.min.js" t="Include" />
+            </e>
+            <e p="vendors" t="Include">
+              <e p="chartjs" t="Include">
+                <e p="chart.min.js" t="Include" />
+              </e>
+              <e p="dropify" t="Include">
+                <e p="css" t="Include">
+                  <e p="dropify.min.css" t="Include" />
+                </e>
+              </e>
+              <e p="vendors.min.css" t="Include" />
+            </e>
+          </e>
+          <e p="css" t="Include">
+            <e p="site.css" t="Include" />
+          </e>
+          <e p="favicon.ico" t="Include" />
+          <e p="js" t="Include">
+            <e p="site.js" t="Include" />
+          </e>
+          <e p="lib" t="Include">
+            <e p="bootstrap" t="Include">
+              <e p="LICENSE" t="Include" />
+              <e p="dist" t="Include">
+                <e p="css" t="Include">
+                  <e p="bootstrap-grid.css" t="Include" />
+                  <e p="bootstrap-grid.css.map" t="Include" />
+                  <e p="bootstrap-grid.min.css" t="Include" />
+                  <e p="bootstrap-grid.min.css.map" t="Include" />
+                  <e p="bootstrap-reboot.css" t="Include" />
+                  <e p="bootstrap-reboot.css.map" t="Include" />
+                  <e p="bootstrap-reboot.min.css" t="Include" />
+                  <e p="bootstrap-reboot.min.css.map" t="Include" />
+                  <e p="bootstrap.css" t="Include" />
+                  <e p="bootstrap.css.map" t="Include" />
+                  <e p="bootstrap.min.css" t="Include" />
+                  <e p="bootstrap.min.css.map" t="Include" />
+                </e>
+                <e p="js" t="Include">
+                  <e p="bootstrap.bundle.js" t="Include" />
+                  <e p="bootstrap.bundle.js.map" t="Include" />
+                  <e p="bootstrap.bundle.min.js" t="Include" />
+                  <e p="bootstrap.bundle.min.js.map" t="Include" />
+                  <e p="bootstrap.js" t="Include" />
+                  <e p="bootstrap.js.map" t="Include" />
+                  <e p="bootstrap.min.js" t="Include" />
+                  <e p="bootstrap.min.js.map" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="jquery" t="Include">
+              <e p="LICENSE.txt" t="Include" />
+              <e p="dist" t="Include">
+                <e p="jquery.js" t="Include" />
+                <e p="jquery.min.js" t="Include" />
+                <e p="jquery.min.map" t="Include" />
+              </e>
+            </e>
+            <e p="jquery-validation" t="Include">
+              <e p="LICENSE.md" t="Include" />
+              <e p="dist" t="Include">
+                <e p="additional-methods.js" t="Include" />
+                <e p="additional-methods.min.js" t="Include" />
+                <e p="jquery.validate.js" t="Include" />
+                <e p="jquery.validate.min.js" t="Include" />
+              </e>
+            </e>
+            <e p="jquery-validation-unobtrusive" t="Include">
+              <e p="LICENSE.txt" t="Include" />
+              <e p="jquery.validate.unobtrusive.js" t="Include" />
+              <e p="jquery.validate.unobtrusive.min.js" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="DemoProject2.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

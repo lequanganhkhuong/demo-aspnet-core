@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="49681d16-0311-4b0a-9d72-474c16fc27d7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.DemoProject2/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.DemoProject2/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.DemoProject2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.DemoProject2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.DemoProject2/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/Controllers/EmployeesController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/Controllers/HomeController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/DemoProject2.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/Migrations/20190711044417_Init.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/Migrations/20190711044417_Init.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/Migrations/MyDbContextModelSnapshot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/Models/Employee.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/Models/ErrorViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/Models/MyDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/Models/RegisterVM/RegisterVm.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/Repositories/IRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/Repositories/IUnitOfWork.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/Repositories/Repository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/Repositories/UnitOfWork.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/Startup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/Views/Employees/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/Views/Employees/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/Views/Employees/Details.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/Views/Employees/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/Views/Employees/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/Views/Home/ErrorForbbiden.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/Views/Home/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/Views/Home/Manage.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/Views/Home/NotLogin.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/Views/Home/Privacy.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/Views/Home/Register.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/Views/Shared/Error.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/Views/Shared/_CookieConsentPartial.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/Views/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/Views/_ViewImports.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/Views/_ViewStart.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/bin/Debug/netcoreapp2.2/DemoProject2.Views.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/bin/Debug/netcoreapp2.2/DemoProject2.Views.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/bin/Debug/netcoreapp2.2/DemoProject2.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/bin/Debug/netcoreapp2.2/DemoProject2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/bin/Debug/netcoreapp2.2/DemoProject2.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/bin/Debug/netcoreapp2.2/DemoProject2.runtimeconfig.dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/bin/Debug/netcoreapp2.2/DemoProject2.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/DemoProject2.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/DemoProject2.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/DemoProject2.RazorAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/DemoProject2.RazorAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/DemoProject2.RazorCoreGenerate.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/DemoProject2.RazorTargetAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/DemoProject2.RazorTargetAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/DemoProject2.TagHelpers.input.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/DemoProject2.TagHelpers.output.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/DemoProject2.Views.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/DemoProject2.Views.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/DemoProject2.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/DemoProject2.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/DemoProject2.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/DemoProject2.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/DemoProject2.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/DemoProject2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/DemoProject2.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/Razor/Views/Employees/Create.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/Razor/Views/Employees/Delete.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/Razor/Views/Employees/Details.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/Razor/Views/Employees/Edit.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/Razor/Views/Employees/Index.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/Razor/Views/Home/ErrorForbbiden.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/Razor/Views/Home/Manage.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/Razor/Views/Home/NotLogin.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/Razor/Views/Home/Register.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/DemoProject2.csproj.EntityFrameworkCore.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/DemoProject2.csproj.codegeneration.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/DemoProject2.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/DemoProject2.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/DemoProject2.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/DemoProject2.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/Uploads/Employees/10/dd24vva-a18b8bed-14f4-4d4e-881f-34a5eed6c768.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/Uploads/Employees/12/dd24vva-a18b8bed-14f4-4d4e-881f-34a5eed6c768.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/Uploads/Employees/14/dc8ykdg-8dcfe782-f577-4bfc-a20c-35858b3310a1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/Uploads/Employees/15/dd24vva-a18b8bed-14f4-4d4e-881f-34a5eed6c768.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/Uploads/Employees/16/dd24vva-a18b8bed-14f4-4d4e-881f-34a5eed6c768.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/Uploads/Employees/18/dd24vva-a18b8bed-14f4-4d4e-881f-34a5eed6c768.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/Uploads/Employees/27/dd24vva-a18b8bed-14f4-4d4e-881f-34a5eed6c768.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/Uploads/Employees/28/dd24vva-a18b8bed-14f4-4d4e-881f-34a5eed6c768.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/Uploads/Employees/29/dc8ykdg-8dcfe782-f577-4bfc-a20c-35858b3310a1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/Uploads/Employees/30/dd24vva-a18b8bed-14f4-4d4e-881f-34a5eed6c768.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/Uploads/Employees/5/dc8ykdg-8dcfe782-f577-4bfc-a20c-35858b3310a1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/css/custom/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/css/pages/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/css/pages/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/css/themes/vertical-modern-menu-template/materialize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/css/themes/vertical-modern-menu-template/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/fonts/material-design-icons/MaterialIcons-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/fonts/material-design-icons/MaterialIcons-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/fonts/material-design-icons/MaterialIcons-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/fonts/material-design-icons/MaterialIcons-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/images/avatar/avatar-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/images/avatar/avatar-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/images/avatar/avatar-11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/images/avatar/avatar-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/images/avatar/avatar-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/images/avatar/avatar-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/images/avatar/avatar-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/images/avatar/avatar-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/images/avatar/avatar-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/images/avatar/avatar-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/images/avatar/avatar-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/images/avatar/avatar-9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/images/cards/applewatch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/images/cards/headphones-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/images/cards/iphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/images/cards/iphonec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/images/cards/macbook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/images/cards/watch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/images/gallery/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/images/gallery/flat-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/images/icon/apple-watch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/images/icon/bowling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/images/icon/laptop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/images/icon/printer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/images/logo/materialize-logo-color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/js/custom/custom-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/js/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/js/scripts/customizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/js/scripts/dashboard-ecommerce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/js/scripts/form-file-uploads.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/js/vendors.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/vendors/chartjs/chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/vendors/dropify/css/dropify.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/vendors/dropify/js/dropify.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/vendors/vendors.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/js/site.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/lib/bootstrap/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/lib/jquery-validation/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/lib/jquery/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/lib/jquery/dist/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoProject2/wwwroot/lib/jquery/dist/jquery.min.map" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="EmployeesController.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DemoProject2/Controllers/EmployeesController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="154" column="37" selection-start-line="154" selection-start-column="37" selection-end-line="154" selection-end-column="37" />
+              <folding>
+                <marker date="1562826818858" expanded="false" signature="6:220" ph="..." />
+                <marker date="1562826818858" expanded="true" signature="256:5109" ph="{...}" />
+                <marker date="1562826818858" expanded="true" signature="324:5107" ph="{...}" />
+                <marker date="1562826818858" expanded="true" signature="463:539" ph="{...}" />
+                <marker date="1562826818858" expanded="true" signature="651:1825" ph="{...}" />
+                <marker date="1562826818858" expanded="true" signature="1066:1190" ph="{...}" />
+                <marker date="1562826818858" expanded="true" signature="1221:1736" ph="{...}" />
+                <marker date="1562826818858" expanded="true" signature="1908:2211" ph="{...}" />
+                <marker date="1562826818858" expanded="true" signature="1946:2009" ph="{...}" />
+                <marker date="1562826818858" expanded="true" signature="2102:2165" ph="{...}" />
+                <marker date="1562826818858" expanded="true" signature="2283:2330" ph="{...}" />
+                <marker date="1562826818858" expanded="true" signature="2340:2552" ph="/* POST: Employees/Create ... */" />
+                <marker date="1562826818858" expanded="true" signature="2709:2967" ph="{...}" />
+                <marker date="1562826818858" expanded="true" signature="2755:2922" ph="{...}" />
+                <marker date="1562826818858" expanded="true" signature="3044:3346" ph="{...}" />
+                <marker date="1562826818858" expanded="true" signature="3082:3145" ph="{...}" />
+                <marker date="1562826818858" expanded="true" signature="3238:3301" ph="{...}" />
+                <marker date="1562826818858" expanded="true" signature="3356:3568" ph="/* POST: Employees/Edit/5 ... */" />
+                <marker date="1562826818858" expanded="true" signature="3731:4262" ph="{...}" />
+                <marker date="1562826818858" expanded="true" signature="3776:3839" ph="{...}" />
+                <marker date="1562826818858" expanded="true" signature="3876:4217" ph="{...}" />
+                <marker date="1562826818858" expanded="true" signature="3910:4037" ph="{...}" />
+                <marker date="1562826818858" expanded="true" signature="4090:4147" ph="{...}" />
+                <marker date="1562826818858" expanded="true" signature="4380:4683" ph="{...}" />
+                <marker date="1562826818858" expanded="true" signature="4418:4481" ph="{...}" />
+                <marker date="1562826818858" expanded="true" signature="4574:4637" ph="{...}" />
+                <marker date="1562826818858" expanded="true" signature="4886:5091" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ecommer</find>
+      <find>../../../</find>
+      <find>go to</find>
+      <find>rende</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>/</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Khuong" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/DemoProject2/Repositories/IRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DemoProject2/Views/Home/Manage.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DemoProject2/Views/Home/Register.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DemoProject2/Views/Home/ErrorForbbiden.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DemoProject2/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DemoProject2/Views/Home/NotLogin.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DemoProject2/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DemoProject2/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DemoProject2/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DemoProject2/Models/RegisterVM/RegisterVm.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DemoProject2/Models/Employee.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DemoProject2/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DemoProject2/Models/MyDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DemoProject2/Migrations/20190711044417_Init.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DemoProject2/Views/Employees/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DemoProject2/Repositories/IUnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DemoProject2/Repositories/UnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DemoProject2/Controllers/EmployeesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DemoProject2/Repositories/Repository.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/DemoProject2/Models/Employee.cs" />
+        <option value="$PROJECT_DIR$/DemoProject2/Models/RegisterVM/RegisterVM.cs" />
+        <option value="$PROJECT_DIR$/DemoProject2/Views/Home/ErrorForbbiden.cshtml" />
+        <option value="$PROJECT_DIR$/DemoProject2/Views/Home/NotLogin.cshtml" />
+        <option value="$PROJECT_DIR$/DemoProject2/Views/Home/Manage.cshtml" />
+        <option value="$PROJECT_DIR$/DemoProject2/Views/_ViewImports.cshtml" />
+        <option value="$PROJECT_DIR$/DemoProject2/Repositories/GenericRepository.cs" />
+        <option value="$PROJECT_DIR$/DemoProject2/Repositories/IUnitOfWork.cs" />
+        <option value="$PROJECT_DIR$/DemoProject2/Repositories/IRepository.cs" />
+        <option value="$PROJECT_DIR$/DemoProject2/Repositories/Repository.cs" />
+        <option value="$PROJECT_DIR$/DemoProject2/Startup.cs" />
+        <option value="$PROJECT_DIR$/DemoProject2/Repositories/UnitOfWork.cs" />
+        <option value="$PROJECT_DIR$/DemoProject2/Views/Employees/Index.cshtml" />
+        <option value="$PROJECT_DIR$/DemoProject2/Models/MyDbContext.cs" />
+        <option value="$PROJECT_DIR$/DemoProject2/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/DemoProject2/Views/Home/Register.cshtml" />
+        <option value="$PROJECT_DIR$/DemoProject2/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/DemoProject2/Views/Home/Index.cshtml" />
+        <option value="$PROJECT_DIR$/DemoProject2/Controllers/EmployeesController.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1176" />
+    <option name="y" value="61" />
+    <option name="width" value="744" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DemoProject2 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DemoProject2 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="DemoProject2" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DemoProject2" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.DemoProject2">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+    </configuration>
+    <configuration name="DemoProject2" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/DemoProject2/bin/Debug/netcoreapp2.2/DemoProject2.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DemoProject2" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/DemoProject2/DemoProject2.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.2" />
+    </configuration>
+    <list>
+      <item itemvalue=".NET Project.Default" />
+      <item itemvalue=".NET Project.DemoProject2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.DemoProject2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49681d16-0311-4b0a-9d72-474c16fc27d7" name="Default" comment="" />
+      <created>1562811883888</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562811883888</updated>
+      <workItem from="1562811885697" duration="13756000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13756000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1176" y="61" width="744" height="1000" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="REST Client" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3505618" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32946146" />
+      <window_info anchor="bottom" id="NuGet" weight="0.3295964" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.48655915" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/DemoProject2/Models/Employee.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding>
+            <marker date="1562812261649" expanded="true" signature="75:384" ph="{...}" />
+            <marker date="1562812261649" expanded="true" signature="103:382" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DemoProject2/Models/RegisterVM/RegisterVm.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding>
+            <marker date="1562812309844" expanded="true" signature="40:271" ph="{...}" />
+            <marker date="1562812309844" expanded="true" signature="70:269" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DemoProject2/Views/Home/NotLogin.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <marker date="1562813289972" expanded="true" signature="15:75" ph="@..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DemoProject2/Views/Home/ErrorForbbiden.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+          <folding>
+            <marker date="1562813209175" expanded="true" signature="15:76" ph="@..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DemoProject2/Views/Home/Manage.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <marker date="1562813355277" expanded="true" signature="15:72" ph="@..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DemoProject2/Views/_ViewImports.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+          <folding>
+            <marker date="1562813448032" expanded="false" signature="7:46" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DemoProject2/Repositories/IUnitOfWork.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding>
+            <marker date="1562819275120" expanded="true" signature="63:191" ph="{...}" />
+            <marker date="1562819275120" expanded="true" signature="98:189" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DemoProject2/Repositories/IRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <marker date="1562819726411" expanded="false" signature="6:52" ph="..." />
+            <marker date="1562819726411" expanded="true" signature="89:316" ph="{...}" />
+            <marker date="1562819726411" expanded="true" signature="142:314" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DemoProject2/Repositories/Repository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <marker date="1562819689003" expanded="false" signature="6:163" ph="..." />
+            <marker date="1562819689003" expanded="true" signature="200:1271" ph="{...}" />
+            <marker date="1562819689003" expanded="true" signature="266:1269" ph="{...}" />
+            <marker date="1562819689003" expanded="true" signature="400:478" ph="{...}" />
+            <marker date="1562819689003" expanded="true" signature="517:565" ph="{...}" />
+            <marker date="1562819689003" expanded="true" signature="596:653" ph="{...}" />
+            <marker date="1562819689003" expanded="true" signature="691:744" ph="{...}" />
+            <marker date="1562819689003" expanded="true" signature="782:898" ph="{...}" />
+            <marker date="1562819689003" expanded="true" signature="946:1136" ph="{...}" />
+            <marker date="1562819689003" expanded="true" signature="1021:1089" ph="{...}" />
+            <marker date="1562819689003" expanded="true" signature="1174:1263" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DemoProject2/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+          <folding>
+            <marker date="1562819792189" expanded="false" signature="6:542" ph="..." />
+            <marker date="1562819792189" expanded="true" signature="566:3389" ph="{...}" />
+            <marker date="1562819792189" expanded="true" signature="593:3387" ph="{...}" />
+            <marker date="1562819792189" expanded="true" signature="652:715" ph="{...}" />
+            <marker date="1562819792189" expanded="true" signature="938:2384" ph="{...}" />
+            <marker date="1562819792189" expanded="true" signature="1011:1288" ph="{...}" />
+            <marker date="1562819792189" expanded="true" signature="1621:1774" ph="{...}" />
+            <marker date="1562819792189" expanded="true" signature="1819:1941" ph="{...}" />
+            <marker date="1562819792189" expanded="true" signature="1976:2140" ph="{...}" />
+            <marker date="1562819792189" expanded="true" signature="2572:3381" ph="{...}" />
+            <marker date="1562819792189" expanded="true" signature="2619:2696" ph="{...}" />
+            <marker date="1562819792189" expanded="true" signature="2713:2972" ph="{...}" />
+            <marker date="1562819792189" expanded="true" signature="3198:3369" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DemoProject2/Views/Employees/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding>
+            <marker date="1562820155576" expanded="true" signature="104:141" ph="@..." />
+            <marker date="1562820155576" expanded="true" signature="159:209" ph="&lt;p.../&gt;" />
+            <marker date="1562820155576" expanded="true" signature="210:551" ph="&lt;form.../&gt;" />
+            <marker date="1562820155576" expanded="true" signature="253:543" ph="&lt;div.../&gt;" />
+            <marker date="1562820155576" expanded="true" signature="297:532" ph="&lt;p.../&gt;" />
+            <marker date="1562820155576" expanded="true" signature="596:2218" ph="&lt;table.../&gt;" />
+            <marker date="1562820155576" expanded="true" signature="657:1395" ph="&lt;thead.../&gt;" />
+            <marker date="1562820155576" expanded="true" signature="673:1382" ph="&lt;tr.../&gt;" />
+            <marker date="1562820155576" expanded="true" signature="690:866" ph="&lt;th.../&gt;" />
+            <marker date="1562820155576" expanded="true" signature="879:963" ph="&lt;th.../&gt;" />
+            <marker date="1562820155576" expanded="true" signature="976:1060" ph="&lt;th.../&gt;" />
+            <marker date="1562820155576" expanded="true" signature="1073:1155" ph="&lt;th.../&gt;" />
+            <marker date="1562820155576" expanded="true" signature="1168:1346" ph="&lt;th.../&gt;" />
+            <marker date="1562820155576" expanded="true" signature="1400:2209" ph="&lt;tbody.../&gt;" />
+            <marker date="1562820155576" expanded="true" signature="1408:2196" ph="@..." />
+            <marker date="1562820155576" expanded="true" signature="1437:2196" ph="{...}" />
+            <marker date="1562820155576" expanded="true" signature="1447:2194" ph="&lt;tr.../&gt;" />
+            <marker date="1562820155576" expanded="true" signature="1464:1543" ph="&lt;td.../&gt;" />
+            <marker date="1562820155576" expanded="true" signature="1556:1639" ph="&lt;td.../&gt;" />
+            <marker date="1562820155576" expanded="true" signature="1652:1735" ph="&lt;td.../&gt;" />
+            <marker date="1562820155576" expanded="true" signature="1748:1829" ph="&lt;td.../&gt;" />
+            <marker date="1562820155576" expanded="true" signature="1842:1921" ph="&lt;td.../&gt;" />
+            <marker date="1562820155576" expanded="true" signature="1934:2180" ph="&lt;td.../&gt;" />
+            <marker date="1562820155576" expanded="true" signature="2219:2352" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DemoProject2/Models/MyDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <marker date="1562820366440" expanded="true" signature="67:312" ph="{...}" />
+            <marker date="1562820366440" expanded="true" signature="109:310" ph="{...}" />
+            <marker date="1562820366440" expanded="true" signature="195:249" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DemoProject2/Repositories/UnitOfWork.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <marker date="1562820015835" expanded="false" signature="6:40" ph="..." />
+            <marker date="1562820015835" expanded="true" signature="77:927" ph="{...}" />
+            <marker date="1562820015835" expanded="true" signature="132:925" ph="{...}" />
+            <marker date="1562820015835" expanded="true" signature="223:265" ph="{...}" />
+            <marker date="1562820015835" expanded="true" signature="438:489" ph="{...}" />
+            <marker date="1562820015835" expanded="true" signature="585:801" ph="{...}" />
+            <marker date="1562820015835" expanded="true" signature="627:757" ph="{...}" />
+            <marker date="1562820015835" expanded="true" signature="672:743" ph="{...}" />
+            <marker date="1562820015835" expanded="true" signature="833:919" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/js/plugins.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DemoProject2/wwwroot/app-assets/vendors/dropify/css/dropify.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="58" lean-forward="true" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DemoProject2/Views/Shared/_Layout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="422" column="41" selection-start-line="422" selection-start-column="41" selection-end-line="422" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DemoProject2/Views/Home/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="57" column="68" lean-forward="true" selection-start-line="57" selection-start-column="68" selection-end-line="57" selection-end-column="68" />
+          <folding>
+            <marker date="1562826657409" expanded="true" signature="24:84" ph="@..." />
+            <marker date="1562826657409" expanded="true" signature="102:676" ph="&lt;!--...--&gt;" />
+            <marker date="1562826657409" expanded="true" signature="677:6703" ph="&lt;html.../&gt;" />
+            <marker date="1562826657409" expanded="true" signature="759:2421" ph="&lt;head.../&gt;" />
+            <marker date="1562826657409" expanded="true" signature="2444:6695" ph="&lt;body.../&gt;" />
+            <marker date="1562826657409" expanded="true" signature="2655:6200" ph="@..." />
+            <marker date="1562826657409" expanded="true" signature="2690:3508" ph="{...}" />
+            <marker date="1562826657409" expanded="true" signature="2736:3494" ph="&lt;div.../&gt;" />
+            <marker date="1562826657409" expanded="true" signature="2766:3488" ph="&lt;div.../&gt;" />
+            <marker date="1562826657409" expanded="true" signature="2804:3482" ph="&lt;div.../&gt;" />
+            <marker date="1562826657409" expanded="true" signature="2827:3476" ph="&lt;div.../&gt;" />
+            <marker date="1562826657409" expanded="true" signature="2881:3470" ph="&lt;div.../&gt;" />
+            <marker date="1562826657409" expanded="true" signature="2994:3443" ph="&lt;div.../&gt;" />
+            <marker date="1562826657409" expanded="true" signature="3265:3412" ph="&lt;form.../&gt;" />
+            <marker date="1562826657409" expanded="true" signature="3517:6200" ph="{...}" />
+            <marker date="1562826657409" expanded="true" signature="3528:5748" ph="&lt;div.../&gt;" />
+            <marker date="1562826657409" expanded="true" signature="3550:5737" ph="&lt;div.../&gt;" />
+            <marker date="1562826657409" expanded="true" signature="3580:5726" ph="&lt;div.../&gt;" />
+            <marker date="1562826657409" expanded="true" signature="3603:5711" ph="&lt;div.../&gt;" />
+            <marker date="1562826657409" expanded="true" signature="3653:5692" ph="&lt;div.../&gt;" />
+            <marker date="1562826657409" expanded="true" signature="3762:5669" ph="&lt;form.../&gt;" />
+            <marker date="1562826657409" expanded="true" signature="3846:4053" ph="&lt;div.../&gt;" />
+            <marker date="1562826657409" expanded="true" signature="3892:4022" ph="&lt;div.../&gt;" />
+            <marker date="1562826657409" expanded="true" signature="4078:4493" ph="&lt;div.../&gt;" />
+            <marker date="1562826657409" expanded="true" signature="4131:4462" ph="&lt;div.../&gt;" />
+            <marker date="1562826657409" expanded="true" signature="4518:4914" ph="&lt;div.../&gt;" />
+            <marker date="1562826657409" expanded="true" signature="4571:4883" ph="&lt;div.../&gt;" />
+            <marker date="1562826657409" expanded="true" signature="5012:5320" ph="&lt;div.../&gt;" />
+            <marker date="1562826657409" expanded="true" signature="5058:5289" ph="&lt;div.../&gt;" />
+            <marker date="1562826657409" expanded="true" signature="5345:5641" ph="&lt;div.../&gt;" />
+            <marker date="1562826657409" expanded="true" signature="5391:5581" ph="&lt;div.../&gt;" />
+            <marker date="1562826657409" expanded="true" signature="5753:6198" ph="/* &lt;div&gt; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DemoProject2/Views/Home/Register.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="63" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
+          <folding>
+            <marker date="1562826125887" expanded="true" signature="50:110" ph="@..." />
+            <marker date="1562826125887" expanded="true" signature="130:1912" ph="&lt;div.../&gt;" />
+            <marker date="1562826125887" expanded="true" signature="152:1905" ph="&lt;div.../&gt;" />
+            <marker date="1562826125887" expanded="true" signature="183:1894" ph="&lt;form.../&gt;" />
+            <marker date="1562826125887" expanded="true" signature="333:583" ph="&lt;div.../&gt;" />
+            <marker date="1562826125887" expanded="true" signature="596:858" ph="&lt;div.../&gt;" />
+            <marker date="1562826125887" expanded="true" signature="871:1133" ph="&lt;div.../&gt;" />
+            <marker date="1562826125887" expanded="true" signature="1146:1414" ph="&lt;div.../&gt;" />
+            <marker date="1562826125887" expanded="true" signature="1427:1694" ph="&lt;div.../&gt;" />
+            <marker date="1562826125887" expanded="true" signature="1756:1878" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DemoProject2/Controllers/HomeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-554">
+          <caret line="59" column="64" selection-start-line="59" selection-start-column="64" selection-end-line="59" selection-end-column="64" />
+          <folding>
+            <marker date="1562824762921" expanded="false" signature="6:471" ph="..." />
+            <marker date="1562824762921" expanded="true" signature="507:4397" ph="{...}" />
+            <marker date="1562824762921" expanded="true" signature="554:4395" ph="{...}" />
+            <marker date="1562824762921" expanded="true" signature="722:786" ph="{...}" />
+            <marker date="1562824762921" expanded="true" signature="823:1085" ph="{...}" />
+            <marker date="1562824762921" expanded="true" signature="880:1047" ph="{...}" />
+            <marker date="1562824762921" expanded="true" signature="1193:2139" ph="{...}" />
+            <marker date="1562824762921" expanded="true" signature="1285:1369" ph="{...}" />
+            <marker date="1562824762921" expanded="true" signature="1532:2082" ph="{...}" />
+            <marker date="1562824762921" expanded="true" signature="1619:1754" ph="{...}" />
+            <marker date="1562824762921" expanded="true" signature="2208:2375" ph="{...}" />
+            <marker date="1562824762921" expanded="true" signature="2551:2598" ph="{...}" />
+            <marker date="1562824762921" expanded="true" signature="2686:3953" ph="{...}" />
+            <marker date="1562824762921" expanded="true" signature="2733:2798" ph="{...}" />
+            <marker date="1562824762921" expanded="true" signature="2853:2969" ph="{...}" />
+            <marker date="1562824762921" expanded="true" signature="3079:3273" ph="{...}" />
+            <marker date="1562824762921" expanded="true" signature="3381:3890" ph="{...}" />
+            <marker date="1562824762921" expanded="true" signature="3570:3659" ph="{...}" />
+            <marker date="1562824762921" expanded="true" signature="4080:4127" ph="{...}" />
+            <marker date="1562824762921" expanded="true" signature="4258:4389" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DemoProject2/Controllers/EmployeesController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="154" column="37" selection-start-line="154" selection-start-column="37" selection-end-line="154" selection-end-column="37" />
+          <folding>
+            <marker date="1562826818858" expanded="false" signature="6:220" ph="..." />
+            <marker date="1562826818858" expanded="true" signature="256:5109" ph="{...}" />
+            <marker date="1562826818858" expanded="true" signature="324:5107" ph="{...}" />
+            <marker date="1562826818858" expanded="true" signature="463:539" ph="{...}" />
+            <marker date="1562826818858" expanded="true" signature="651:1825" ph="{...}" />
+            <marker date="1562826818858" expanded="true" signature="1066:1190" ph="{...}" />
+            <marker date="1562826818858" expanded="true" signature="1221:1736" ph="{...}" />
+            <marker date="1562826818858" expanded="true" signature="1908:2211" ph="{...}" />
+            <marker date="1562826818858" expanded="true" signature="1946:2009" ph="{...}" />
+            <marker date="1562826818858" expanded="true" signature="2102:2165" ph="{...}" />
+            <marker date="1562826818858" expanded="true" signature="2283:2330" ph="{...}" />
+            <marker date="1562826818858" expanded="true" signature="2340:2552" ph="/* POST: Employees/Create ... */" />
+            <marker date="1562826818858" expanded="true" signature="2709:2967" ph="{...}" />
+            <marker date="1562826818858" expanded="true" signature="2755:2922" ph="{...}" />
+            <marker date="1562826818858" expanded="true" signature="3044:3346" ph="{...}" />
+            <marker date="1562826818858" expanded="true" signature="3082:3145" ph="{...}" />
+            <marker date="1562826818858" expanded="true" signature="3238:3301" ph="{...}" />
+            <marker date="1562826818858" expanded="true" signature="3356:3568" ph="/* POST: Employees/Edit/5 ... */" />
+            <marker date="1562826818858" expanded="true" signature="3731:4262" ph="{...}" />
+            <marker date="1562826818858" expanded="true" signature="3776:3839" ph="{...}" />
+            <marker date="1562826818858" expanded="true" signature="3876:4217" ph="{...}" />
+            <marker date="1562826818858" expanded="true" signature="3910:4037" ph="{...}" />
+            <marker date="1562826818858" expanded="true" signature="4090:4147" ph="{...}" />
+            <marker date="1562826818858" expanded="true" signature="4380:4683" ph="{...}" />
+            <marker date="1562826818858" expanded="true" signature="4418:4481" ph="{...}" />
+            <marker date="1562826818858" expanded="true" signature="4574:4637" ph="{...}" />
+            <marker date="1562826818858" expanded="true" signature="4886:5091" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

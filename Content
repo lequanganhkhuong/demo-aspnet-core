@@ -1,0 +1,6 @@
+-code first
+-cookie authentication
+-claimbase authorization
+-backend sort search pagination
+-login, register, uploadfile
+-Repository, Unit of Work
